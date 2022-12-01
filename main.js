@@ -1,0 +1,63 @@
+$('.brand-carousel').owlCarousel({
+	center:true,
+	autoplay:true,
+	items:1,
+    loop:true,
+    margin:20,
+    responsive:{
+        0:{
+            items:1
+           
+        },
+        600:{
+            items:3
+            
+        },
+        1000:{
+            items:5
+           
+        }
+    }
+})
+$('.test-whole').owlCarousel({
+	center:true,
+	autoplay:true,
+	items:1,
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+           
+        },
+        600:{
+            items:1
+            
+        },
+        1000:{
+            items:1
+           
+        }
+    }
+})
+$('.whole-test').owlCarousel({
+	center:true,
+	autoplay:true,
+	items:1,
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+           
+        },
+        600:{
+            items:1
+            
+        },
+        1000:{
+            items:3
+           
+        }
+    }
+})
