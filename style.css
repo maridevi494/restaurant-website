@@ -174,8 +174,6 @@ header{
 	background-color:white
 
 }
-.img-cont h3{
-}
 .img-cont h2{
 	color:#ce1212;
 	padding:10px 0px;
@@ -922,8 +920,8 @@ footer{
 	
 }
 .foot-social{
-
 }
+
 .foot-social a{
 	display: flex;
     align-items: center;
@@ -1014,7 +1012,6 @@ footer{
 @media (min-width:320px){
 	.col-home1{
 	width:100%;
-	align-self:;
 }
 .col-home2{
 	width:100%;
@@ -1168,6 +1165,7 @@ footer{
 	display:flex;
 
 }
+}
 	
 @media (min-width:800px){
 	.col-home1{
@@ -1234,7 +1232,7 @@ footer{
 .col-start{
 	width:45%;
 	text-align:center;
-	margin:;
+	
 }
 .col-start img{
 	width:100%;
@@ -1254,7 +1252,6 @@ footer{
 }
 .row-address{
 	display:flex;
-	flex-wrap:;
 	justify-content:space-between;
 }
 .col-add{
@@ -1462,6 +1459,10 @@ footer{
 .head {
 	display:flex;
 	justify-content:space-around;
+	
+
+	width: 85%;
+	margin: 0 auto;
 }
 .navbut{
 	display:flex;
@@ -1469,6 +1470,12 @@ footer{
 .bar-icon{
 	display:none;
 	
+}
+.headersec{
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+	position: fixed;
 }
 
 }
